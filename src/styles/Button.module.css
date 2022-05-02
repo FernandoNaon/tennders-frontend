@@ -1,0 +1,21 @@
+.button {
+  background: #fdf694;
+  box-shadow: 0px -1px 13px 0px #6a6d6963;
+  border-radius: 40px;
+  display: inline-block;
+  cursor: pointer;
+  color: #000000;
+  font-family: Arial;
+  font-size: 23px;
+  padding: 16px 31px;
+  text-decoration: none;
+  border: 0;
+}
+.button:hover {
+  background-color: #000000;
+  color: #fdf694;
+}
+.button:active {
+  position: relative;
+  top: 1px;
+}

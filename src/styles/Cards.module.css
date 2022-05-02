@@ -1,0 +1,9 @@
+.cardsContainer {
+  margin: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
