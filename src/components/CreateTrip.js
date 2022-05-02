@@ -37,7 +37,7 @@ export default function CreateTrip() {
     });
     console.log(input);
     axios
-      .post('http://localhost:3001', input)
+      .post('https://tennders-backend.herokuapp.com', input)
       .then((res) => {
         console.log(res.data);
       })
